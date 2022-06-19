@@ -1,0 +1,78 @@
+body {
+    background-color: #f7e9dc;
+    padding:0;
+    margin:0;
+}
+
+.container {
+    height: 100vh;
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.balance-card {
+    background-color: #ec755d;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: relative;
+    z-index: 1;
+}
+
+.chart-card {
+    background-color: #fffcf7;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+.white-circle {
+    height: 2rem;
+    width: 2rem;
+    background-color: #ec755d00;
+    border-radius: 50%;
+    z-index: 100;
+    box-shadow: 0 0 0 1px white;
+}
+
+.dark-circle {
+    height: 2rem;
+    width: 2rem;
+    background-color: #392315;
+    border-radius: 50%;
+
+    position: absolute;
+    right: 20px;
+}
+
+
+.card-header {
+    font-size: 1.25rem;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+.attribution {
+    position: absolute;
+    width: 100vw;
+    bottom: 2rem;
+    font-size: 11px;
+    text-align: center;
+    margin: auto;
+    z-index: 0;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/*
+blue: 76b5bc
+active-blue: b4dfe5
+active-red: ff9b87
+dark-circle: 392315
+*/

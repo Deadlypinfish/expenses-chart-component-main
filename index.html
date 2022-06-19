@@ -8,32 +8,64 @@
   
   <title>Frontend Mentor | Expenses chart component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  
+  <link rel="stylesheet" href="style.css">
+
+  
+
 </head>
 <body>
 
-  My balance
-  $921.48
+  <div class="container">
+    <div class="balance-card">
+      <div class="balance">
+        <div style="font-size: small;
+        padding-bottom: .5rem;">My balance</div>
+        <div style="font-size: 1.25rem;">$921.48</div>
+      </div>
+      <div style="display: flex;margin-right:1rem">
+        <div class="dark-circle"></div>
+        <div class="white-circle"></div>
+  
+      </div>
+    </div>
 
-  Spending - Last 7 days
+    <div class="chart-card">
+      <p class="card-header">Spending - Last 7 days</p>
+  
+  
+      <div class="chart">
+  
+        <ul>
+          <li>mon</li>
+          <li>tue</li>
+          <li>wed</li>
+          <li>thu</li>
+          <li>fri</li>
+          <li>sat</li>
+          <li>sun</li>
+        </ul>
+      </div>
+  
+      <div class="details">
+        <div class="total">
+          <span>Total this month</span>
+          <span>$478.33</span>
+        </div>
+        <div class="percent">
+          <span>+2.4%</span>
+          <span>from last month</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
 
-  mon
-  tue
-  wed
-  thu
-  fri
-  sat
-  sun
 
-  Total this month
-  $478.33
+ 
 
-  +2.4%
-  from last month
+  
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
